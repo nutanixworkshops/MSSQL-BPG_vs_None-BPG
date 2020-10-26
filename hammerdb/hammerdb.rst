@@ -72,7 +72,7 @@ Let's simulate a scenario where best practices for MS SQL databases are not foll
 #. Wait until the data gets generated. This generates up to 15GB of data.
 
    .. note::
-      It may take from 15 - 20 minutes for data population
+      It may take from 30-45 minutes for data population. You may start to prepare the next VM by repeating steps 1-10 of Lab 1. Once you are done with threse steps for the other VM, continue step #11 below for the NONE-BPG VM.
 
 #. Once the data is generated (The Status column will all have Green Ticks),click on Destroy Virtual Users.
 
