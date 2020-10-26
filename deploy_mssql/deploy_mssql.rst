@@ -66,7 +66,7 @@ Configuring the two database servers
 
 Per server, run the below steps. We have tried to automate as much as we can so it doesn't become to tedious....
 
-#. To configure the MSSQL database and the server itself, download the following zip file: https://raw.githubusercontent.com/wessenstam/MSSQL-BPG_VS_NONE-BPG/master/files/configure.zip in your Windows Server. The scripts in the zip file will set the following parameters:
+#. To configure the MSSQL database and the server itself, download the following zip file: https://raw.githubusercontent.com/wessenstam/MSSQL-BPG_vs_None-BPG/main/files/NTNX-HammerDB.zip in your Windows Server. The scripts in the zip file will set the following parameters:
    
    - Server platform:
      
@@ -93,11 +93,11 @@ Per server, run the below steps. We have tried to automate as much as we can so 
        #. Set the DB Recovery mode
 
 
-#. Unpack the downloaded zip file and move the directory (**ntnx-hammerdb**) to the root of **c:** using the Windows Explorer.
+#. Unpack the downloaded zip file and move the directory (**NTNX-HammerDB**) to the root of **c:** using the Windows Explorer.
 
 #. Run **Powershell -ExecutionPolicy ByPass** as the script has not been signed and therefore the Windows Server platform allows the execution of the script.
 
-#. Run **cd c:\\ntnx-hammerdb**  in the Powershell Window
+#. Run **cd c:\\NTNX-HammerDB**  in the Powershell Window
 
 #. Run **./configure.ps1** to have the script run. The server will reboot at the end of the script.
 
